@@ -2,8 +2,8 @@ from flask import Flask
 app = Flask(__name__)
 
 COMPANY = "Wild Rydes"
-DEVELOPER = "Rohit Kumar"
-STUDENT_ID = "101002678"
+DEVELOPER = "Harwinder Singh"
+STUDENT_ID = "100961171"
 
 @app.route("/")
 def index():
@@ -11,3 +11,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
